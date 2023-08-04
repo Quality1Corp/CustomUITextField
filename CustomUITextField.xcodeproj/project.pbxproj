@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		6615245A2A7CED1100B7B1FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661524592A7CED1100B7B1FE /* AppDelegate.swift */; };
 		6615245C2A7CED1100B7B1FE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6615245B2A7CED1100B7B1FE /* SceneDelegate.swift */; };
-		6615245E2A7CED1100B7B1FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6615245D2A7CED1100B7B1FE /* ViewController.swift */; };
-		661524612A7CED1100B7B1FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6615245F2A7CED1100B7B1FE /* Main.storyboard */; };
+		6615245E2A7CED1100B7B1FE /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6615245D2A7CED1100B7B1FE /* AuthViewController.swift */; };
 		661524632A7CED1200B7B1FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 661524622A7CED1200B7B1FE /* Assets.xcassets */; };
 		661524662A7CED1200B7B1FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 661524642A7CED1200B7B1FE /* LaunchScreen.storyboard */; };
+		6615246E2A7CEF1500B7B1FE /* RegisterTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6615246D2A7CEF1500B7B1FE /* RegisterTextField.swift */; };
+		661524722A7D4AFE00B7B1FE /* EyeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661524712A7D4AFE00B7B1FE /* EyeButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		661524562A7CED1100B7B1FE /* CustomUITextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomUITextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		661524592A7CED1100B7B1FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6615245B2A7CED1100B7B1FE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6615245D2A7CED1100B7B1FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		661524602A7CED1100B7B1FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6615245D2A7CED1100B7B1FE /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
 		661524622A7CED1200B7B1FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		661524652A7CED1200B7B1FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		661524672A7CED1200B7B1FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6615246D2A7CEF1500B7B1FE /* RegisterTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterTextField.swift; sourceTree = "<group>"; };
+		661524712A7D4AFE00B7B1FE /* EyeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyeButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +58,32 @@
 		661524582A7CED1100B7B1FE /* CustomUITextField */ = {
 			isa = PBXGroup;
 			children = (
-				661524592A7CED1100B7B1FE /* AppDelegate.swift */,
-				6615245B2A7CED1100B7B1FE /* SceneDelegate.swift */,
-				6615245D2A7CED1100B7B1FE /* ViewController.swift */,
-				6615245F2A7CED1100B7B1FE /* Main.storyboard */,
-				661524622A7CED1200B7B1FE /* Assets.xcassets */,
-				661524642A7CED1200B7B1FE /* LaunchScreen.storyboard */,
+				6615246F2A7D4AA900B7B1FE /* App */,
+				6615245D2A7CED1100B7B1FE /* AuthViewController.swift */,
+				6615246D2A7CEF1500B7B1FE /* RegisterTextField.swift */,
+				661524712A7D4AFE00B7B1FE /* EyeButton.swift */,
+				661524702A7D4AC800B7B1FE /* Resources */,
 				661524672A7CED1200B7B1FE /* Info.plist */,
 			);
 			path = CustomUITextField;
+			sourceTree = "<group>";
+		};
+		6615246F2A7D4AA900B7B1FE /* App */ = {
+			isa = PBXGroup;
+			children = (
+				661524592A7CED1100B7B1FE /* AppDelegate.swift */,
+				6615245B2A7CED1100B7B1FE /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		661524702A7D4AC800B7B1FE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				661524622A7CED1200B7B1FE /* Assets.xcassets */,
+				661524642A7CED1200B7B1FE /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +146,6 @@
 			files = (
 				661524662A7CED1200B7B1FE /* LaunchScreen.storyboard in Resources */,
 				661524632A7CED1200B7B1FE /* Assets.xcassets in Resources */,
-				661524612A7CED1100B7B1FE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +156,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6615245E2A7CED1100B7B1FE /* ViewController.swift in Sources */,
+				6615246E2A7CEF1500B7B1FE /* RegisterTextField.swift in Sources */,
+				661524722A7D4AFE00B7B1FE /* EyeButton.swift in Sources */,
+				6615245E2A7CED1100B7B1FE /* AuthViewController.swift in Sources */,
 				6615245A2A7CED1100B7B1FE /* AppDelegate.swift in Sources */,
 				6615245C2A7CED1100B7B1FE /* SceneDelegate.swift in Sources */,
 			);
@@ -147,14 +167,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		6615245F2A7CED1100B7B1FE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				661524602A7CED1100B7B1FE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		661524642A7CED1200B7B1FE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,9 +304,8 @@
 				INFOPLIST_FILE = CustomUITextField/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,9 +313,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ru.CustomUITextField;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -320,9 +334,8 @@
 				INFOPLIST_FILE = CustomUITextField/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,9 +343,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ru.CustomUITextField;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
